@@ -4,3 +4,5 @@ __pycache__/
 pdfs/*.pdf
 convert.log
 .playwright-browsers/
+
+markdown/
