@@ -1,0 +1,20 @@
+# Folders are relative to this file unless you use an absolute path.
+input_folder: markdown
+output_folder: pdfs
+recursive: true
+
+font:
+  # CSS family name used in the PDF (e.g. Calibri, Georgia, "Segoe UI").
+  family: Calibri
+  # Optional path to a .ttf, .otf, or .woff2 file. Leave empty to use a system font.
+  file: ""
+  size_pt: 11
+  # Optional heading font. Empty means reuse family/file above.
+  heading_family: ""
+  heading_file: ""
+  code_family: Consolas
+  code_file: ""
+
+page:
+  format: Letter # Letter, A4, or Legal
+  margin: 0.75in
